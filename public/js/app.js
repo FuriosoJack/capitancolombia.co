@@ -2067,6 +2067,14 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({});
 
 /***/ }),
@@ -20485,6 +20493,17 @@ var render = function() {
     "v-bottom-navigation",
     { attrs: { app: "" } },
     [
+      _c(
+        "v-btn",
+        { attrs: { color: "primary accent-4", text: "" } },
+        [
+          _c("span", [_vm._v("Inicio")]),
+          _vm._v(" "),
+          _c("v-icon", [_vm._v("mdi-history")])
+        ],
+        1
+      ),
+      _vm._v(" "),
       _c(
         "v-btn",
         { attrs: { color: "primary accent-4", text: "" } },
