@@ -1,5 +1,6 @@
 require('./bootstrap');
 import Vue from 'vue';
+import '@mdi/font/css/materialdesignicons.css'
 
 import Vuex from 'vuex'
 Vue.use(Vuex)
@@ -27,6 +28,9 @@ const app = new Vue({
     store: store,
     components: { Welcome,EnConstruccion },
     vuetify: new Vuetify({
-        theme: { dark: false }
+        theme: { dark: false },
+        icons: {
+            iconfont: 'mdi', // default - only for display purposes
+        },
     })
 });
