@@ -1,6 +1,14 @@
 <template>
     <v-bottom-navigation
         app >
+        <v-btn
+        color="primary accent-4"
+        text
+      >
+        <span>Inicio</span>
+
+        <v-icon>mdi-history</v-icon>
+      </v-btn>
       <v-btn
         color="primary accent-4"
         text

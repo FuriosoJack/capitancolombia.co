@@ -1,5 +1,5 @@
 <template>
-   <v-app >
+   <v-app>
         <v-app-bar app>
              <v-app-bar-nav-icon @click="drawer = !drawer"></v-app-bar-nav-icon>
             <v-toolbar-title>CapitanColombiAPP 🇨🇴</v-toolbar-title>
@@ -26,7 +26,6 @@
         <button-menu></button-menu>
   </v-app>
 </template>
-
 <script>
 import ButtonMenu from './ButtonMenu.vue';
 import NavigationDrawer from './NavigationDrawer.vue';
