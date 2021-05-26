@@ -1,5 +1,4 @@
 <template>
-    <app>
 
        <v-container>
         <v-row>
@@ -23,14 +22,12 @@
           </template>
         </v-row>
       </v-container>
-    </app>
 </template>
 
 <script>
-import App from '../components/App';
 export default {
     components:{
-        App
+
     },
     data() {
         return {

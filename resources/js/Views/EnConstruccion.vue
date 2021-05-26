@@ -1,5 +1,5 @@
 <template>
-    <app>
+
 
        <v-container>
            <v-alert
@@ -25,14 +25,15 @@
             Si te gustaria colaborar sin importar a que te dediques escribenos hola@capitancolombia.co. Si eres desarrollador arriba te dejamos el enlace del repositorio de github para que te unas y escribas codigo🦾
             </v-alert>
       </v-container>
-    </app>
+
 </template>
 
 <script>
-import App from '../components/App';
+
 export default {
+    name:"EnConstruccion",
     components:{
-        App
+
     },
     data() {
         return {
